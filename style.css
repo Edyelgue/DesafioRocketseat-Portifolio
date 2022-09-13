@@ -1,0 +1,101 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background: #22212C;
+}
+
+#container {
+    display: flex;
+}
+
+#blocosLaterais {
+    width: 348px;
+    margin: 40px 0 0 40px;
+}
+
+.menuLateral {
+    background: #302F3D;
+    border-radius: 20px;
+}
+
+#profile {
+    width: 348px;
+    height: 292px;
+}
+
+#links {
+    width: 348px;
+    height: 348px;
+    margin-top: 30px;
+}
+
+#technologies {
+    width: 348px;
+    height: 208px;
+    margin-top: 30px;
+}
+
+#experiencies {
+    width: 348px;
+    height: 349px;
+    margin-top: 30px;
+}
+
+#education {
+    width: 348px;
+    height: 352px;
+    margin: 30px 0 0 0;
+}
+
+#conteudo {
+    width: 952px;
+    height: 650px;
+    margin: 40px 40px;
+}
+
+#titulo {
+    width: 952px;
+    height: 86px;
+    border-radius: 20px;
+    margin-bottom: 31px;
+}
+
+#duasCaixas {
+    display: flex;
+}
+
+#caixa1 {
+    width: 481px;
+    height: 186px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+#caixa2 {
+    width: 481px;
+    height: 186px;
+    border-radius: 20px;
+}
+
+#recentePosts {
+    width: 952px;
+    height: 86px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#post {
+    width: 952px;
+    height: 201px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #837E9F;
+    margin-top: 30px;
+    text-align: center;
+}
+
