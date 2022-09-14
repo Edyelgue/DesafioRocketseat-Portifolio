@@ -20,16 +20,92 @@ body {
     border-radius: 20px;
 }
 
+/* ========= PROFILE ========= */
+
 #profile {
     width: 348px;
     height: 292px;
+    display: grid;
 }
+
+#conteudoProfile {
+    margin-top: 30px;
+}
+
+div #circle {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    /*border: #00FF00 1px solid;*/
+}
+
+#fotoPerfil {
+    width: 128px;
+    height: 128px;
+}
+
+#nome {
+    width: 196px;
+    height: 26px;
+    text-align: center;
+    margin: auto;
+    font-size: 23;
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+    /*border: white 1px solid;*/
+}
+
+#profissao {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13;
+    font-weight: 400;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+/* ========= FIM PROFILE ========= */
+
+/* ========= LINKS ========= */
 
 #links {
     width: 348px;
     height: 348px;
     margin-top: 30px;
+    display: grid;
 }
+
+#menuLinks {
+    display: flex;
+}
+
+#icons {
+    width: 24px;
+    height: 288px;
+    margin: 30px 0 0 40px;
+    display: grid;
+    grid-auto-rows: 44.5px;
+    /*border: white 1px solid;*/
+}
+
+#linksRedesSociais a {
+    color: #837E9F;
+    text-decoration: none;
+    display: grid;
+    grid-auto-rows: 15px;
+    margin: 30px 0 0 20px;
+}
+
+#linksRedesSociais a:hover {
+    color: #b1aec7;
+}
+
+/* ========= FIM LINKS ========= */
+
+/* ========= TECHNOLOGIES ========= */
 
 #technologies {
     width: 348px;
@@ -98,4 +174,3 @@ footer p {
     margin-top: 30px;
     text-align: center;
 }
-
