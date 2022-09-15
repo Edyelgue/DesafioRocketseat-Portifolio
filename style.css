@@ -20,6 +20,17 @@ body {
     border-radius: 20px;
 }
 
+.titulosGeral {
+    width: 121px;
+    height: 26px;
+    margin: 30px 0 0 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20;
+    font-weight: 700;
+    color: #837E9F;
+    /*border: white 1px solid;*/
+}
+
 /* ========= PROFILE ========= */
 
 #profile {
@@ -110,14 +121,80 @@ div #circle {
 #technologies {
     width: 348px;
     height: 208px;
+    display: grid;
     margin-top: 30px;
 }
 
+#quadroTechs {
+    width: 288px;
+    height: 102px;
+    margin-left: 30px;
+    display: flex;
+    /*border: white 1px solid;*/
+}
+
+.techs {
+    width: 86px;
+    height: 24px;
+    background-color: #CB92B1;
+    border: #CB92B1 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 10;
+    color: black;
+    font-weight: 700;
+}
+
+.miniQdTec {
+    margin-left: 15px;
+    display: grid;
+    grid-auto-rows: 35px;
+    /*border: white 1px solid;*/
+}
+
+#miniQuadro {
+    margin-left: 0;
+}
+
+/* ========= FIM TECHNOLOGIES ========= */
+
+/* ========= EXPERIENCIES ========= */
+
 #experiencies {
     width: 348px;
-    height: 349px;
+    height: 370px;
     margin-top: 30px;
+    display: grid;
 }
+
+#tituloExp {
+    width: 141px;
+    height: 26px;
+    /*border: white 1px solid;*/
+}
+
+#conteudoExp {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    /*border: white 1px solid;*/
+}
+
+li {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14;
+    font-weight: 700;
+    color: #837E9F;
+}
+
+.textExp {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12;
+    font-weight: 400;
+    color: #837E9F;
+}
+
+/* ========= FIM EXPERIENCIES ========= */
 
 #education {
     width: 348px;
